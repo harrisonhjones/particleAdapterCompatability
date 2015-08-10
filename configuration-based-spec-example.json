@@ -1,0 +1,92 @@
+{
+    "name": "SparkFun Photon IMU Shield",
+    "formatVersion": "0.0.1",
+    "version": "0.0.1",
+    "manufacturer": "SparkFun",
+    "format": "configuration",
+    "url": "https://www.sparkfun.com/products/13629",
+    "library": "https://github.com/sparkfun/SparkFun_LSM9DS1_Particle_Library",
+    "repo": "https://github.com/sparkfun/Photon_IMU_Shield",
+    "configurations": [
+        {
+            "name": "I2C-0",
+            "desc": "Default I2C configuration",
+            "default": true,
+            "notes": "",
+            "externalPower": false,
+            "data": "I2C",
+            "usedDataAddressed": [
+                "0x6A",
+                "0x1C"
+            ],
+            "usedPins": [
+                {
+                    "D0": {
+                        "usedFor": "I2C",
+                        "blocking": false
+                    },
+                    "D1": {
+                        "usedFor": "I2C",
+                        "blocking": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "I2C-1",
+            "desc": "Alternate I2C configuration",
+            "default": false,
+            "notes": "",
+            "externalPower": false,
+            "data": "I2C",
+            "usedDataAddressed": [
+                "0x6B",
+                "0x1E"
+            ],
+            "usedPins": [
+                {
+                    "D0": {
+                        "usedFor": "I2C",
+                        "blocking": false
+                    },
+                    "D1": {
+                        "usedFor": "I2C",
+                        "blocking": false
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPI-1",
+            "desc": "Alternate SPI configuration",
+            "default": false,
+            "notes": "",
+            "externalPower": false,
+            "data": "SPI",
+            "usedPins": [
+                {
+                    "D9": {
+                        "usedFor": "SPI AG Chip Select",
+                        "blocking": true
+                    },
+                    "D10": {
+                        "usedFor": "SPI M Chip Select",
+                        "blocking": true
+                    },
+                    "D12": {
+                        "usedFor": "SDO AG & M",
+                        "blocking": true
+                    },
+                    "D13": {
+                        "usedFor": "SPI SCL",
+                        "blocking": false
+                    },
+                    "D11": {
+                        "usedFor": "SPI SDA",
+                        "blocking": false
+                    }
+                }
+            ]
+        }
+    ]
+}
