@@ -1,12 +1,15 @@
 {
     "name": "SparkFun Photon IMU Shield",
-    "formatVersion": "0.0.1",
+    "formatVersion": "0.0.2",
     "version": "0.0.1",
     "manufacturer": "SparkFun",
+    "vendor": "sparkfun.com",
+    "productID": 13629,
     "format": "configuration",
     "url": "https://www.sparkfun.com/products/13629",
     "library": "https://github.com/sparkfun/SparkFun_LSM9DS1_Particle_Library",
     "repo": "https://github.com/sparkfun/Photon_IMU_Shield",
+    "oshw": true,
     "configurations": [
         {
             "name": "I2C-0",
