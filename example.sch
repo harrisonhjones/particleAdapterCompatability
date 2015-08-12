@@ -4092,29 +4092,29 @@ Designed by: Harrison Jones</text>
 </packages>
 <symbols>
 <symbol name="PARTICLE_SHIELD">
-<pin name="VIN" x="-15.24" y="7.62" length="middle" direction="pwr"/>
-<pin name="GND" x="-15.24" y="5.08" length="middle" direction="pwr"/>
-<pin name="TX" x="-15.24" y="2.54" length="middle" direction="out"/>
-<pin name="RX" x="-15.24" y="0" length="middle" direction="in"/>
-<pin name="WKP" x="-15.24" y="-2.54" length="middle"/>
-<pin name="DAC" x="-15.24" y="-5.08" length="middle"/>
-<pin name="A5" x="-15.24" y="-7.62" length="middle"/>
-<pin name="A4" x="-15.24" y="-10.16" length="middle"/>
-<pin name="A3" x="-15.24" y="-12.7" length="middle"/>
-<pin name="A2" x="-15.24" y="-15.24" length="middle"/>
-<pin name="A1" x="-15.24" y="-17.78" length="middle"/>
-<pin name="A0" x="-15.24" y="-20.32" length="middle"/>
-<pin name="D0" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="D1" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="D2" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="D3" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="D4" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="D5" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="D6" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="D7" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="VBAT" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="!RST" x="15.24" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="3V3" x="15.24" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-15.24" y="7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="TX" x="-15.24" y="2.54" visible="pin" length="middle" direction="out"/>
+<pin name="RX" x="-15.24" y="0" visible="pin" length="middle" direction="in"/>
+<pin name="WKP" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="DAC" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="A5" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="A4" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="A3" x="-15.24" y="-12.7" visible="pin" length="middle"/>
+<pin name="A2" x="-15.24" y="-15.24" visible="pin" length="middle"/>
+<pin name="A1" x="-15.24" y="-17.78" visible="pin" length="middle"/>
+<pin name="A0" x="-15.24" y="-20.32" visible="pin" length="middle"/>
+<pin name="D0" x="15.24" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D1" x="15.24" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="D2" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D4" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D5" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D6" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D7" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VBAT" x="15.24" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="!RST" x="15.24" y="5.08" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="3V3" x="15.24" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-22.86" width="0.254" layer="97"/>
 <wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="97"/>
 <wire x1="10.16" y1="-22.86" x2="10.16" y2="10.16" width="0.254" layer="97"/>
